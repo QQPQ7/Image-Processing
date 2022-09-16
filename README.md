@@ -85,16 +85,21 @@ Week6-1
 Week7-1
 -----------
 영상에 rotation을 적용한 후 발생한 hole 까지 채우는 코드입니다.
+
 ![rot](result/rot.bmp)
 
 Week7-2
 -----------
 영상에 존재하는 edge들을 검출하는 코드입니다. (Gradinet를 통한 검출)
 
+![x](result/Output_Edge_X.bmp)
+![y](result/Output_Edge_Y.bmp)
 
 Week9-1
 -----------
 Prewiit, Roberts, Sobel 필터들을 사용하여 edge 검출을 진행하며 필요 없는 edge 성분을 제거하기 위해 thresholding을 사용합니다.
+
+![edge](result/OutputSobelFilter.bmp)
 
 Week9-2
 -----------
