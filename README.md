@@ -11,21 +11,21 @@
 사용한 영상들
 -----------
 ![원본1](result/AICenter.bmp)
-![원본2](AICenterY_128X128.bmp)
-![원본3](AICenterY_CombinedNoise.bmp)
-![원본4](AICenterY_Dark.bmp)
-![원본5](GateY.bmp)
-![원본6](GateY_128X128.bmp)
+![원본2](result/AICenterY_128X128.bmp)
+![원본3](result/AICenterY_CombinedNoise.bmp)
+![원본4](result/AICenterY_Dark.bmp)
+![원본5](result/GateY.bmp)
+![원본6](result/GateY_128X128.bmp)
 
 **흑백 영상들의 경우 YCbCr 값 중에서 Y 값만을 추출하였습니다.**
 
 워터마트 영상
 -----------
-![워터마크](SejongMark.bmp)
+![워터마크](result/SejongMark.bmp)
 
 필터 영상
 -----------
-![필터](FilteringMask.bmp)
+![필터](result/FilteringMask.bmp)
 
 
 Week2
@@ -55,32 +55,37 @@ Week4
 Week4-2
 -----------
 영상 데이터 값들의 분포를 히스토그램으로 전환하여 이미지 형태로 추출하는 코드입니다.  
-![aic](AICenterY.bmp)
-![히스토](OutputHisto.bmp)
+
+![aic](result/AICenterY.bmp)
+![히스토](result/OutputHisto.bmp)
 
 Week5-1
 -----------
 이전 주차에서 진행한 히스토그램을 조건에 맞도록 조절하는 Histogram Equalization 과정이 작성된 코드입니다. (Sliding, Contrast, Image Enhancement, cumulative histogram)
 원본
-![sed](sejongDarkY.bmp)
+
+![sed](result/sejongDarkY.bmp)
 
 Histogram Equalization 결과
-![HE](HE from sejongY_Dark.bmp)
+
+![HE](result/HE from sejongY_Dark.bmp)
 
 Week5-2
 -----------
 영상 이미지에 감마 값을 조절하여 밝기를 변화시키는 코드입니다.
-![gam](GAMMA AICenterY.bmp)
+
+![gam](result/GAMMA AICenterY.bmp)
 
 Week6-1
 -----------
 이미지 데이터를 손실시켜 이미지 크기를 줄이는 downsampling 과정이 작성된 코드입니다.
-![down](Downsampledoutput.bmp)
+
+![down](result/Downsampledoutput.bmp)
 
 Week7-1
 -----------
 영상에 rotation을 적용한 후 발생한 hole 까지 채우는 코드입니다.
-![rot](rot.bmp)
+![rot](result/rot.bmp)
 
 Week7-2
 -----------
