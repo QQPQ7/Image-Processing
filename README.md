@@ -10,7 +10,7 @@
 
 사용한 영상들
 -----------
-![원본1](AICenter.bmp)
+![원본1](rsult/AICenter.bmp)
 ![원본2](AICenterY_128X128.bmp)
 ![원본3](AICenterY_CombinedNoise.bmp)
 ![원본4](AICenterY_Dark.bmp)
@@ -55,30 +55,37 @@ Week4
 Week4-2
 -----------
 영상 데이터 값들의 분포를 히스토그램으로 전환하여 이미지 형태로 추출하는 코드입니다.  
+![aic](AICenterY.bmp)
+![히스토](OutputHisto.bmp)
 
 Week5-1
 -----------
 이전 주차에서 진행한 히스토그램을 조건에 맞도록 조절하는 Histogram Equalization 과정이 작성된 코드입니다. (Sliding, Contrast, Image Enhancement, cumulative histogram)
+원본
+![sed](sejongDarkY.bmp)
+
+Histogram Equalization 결과
+![HE](HE from sejongY_Dark.bmp)
 
 Week5-2
 -----------
 영상 이미지에 감마 값을 조절하여 밝기를 변화시키는 코드입니다.
+![gam](GAMMA AICenterY.bmp)
 
 Week6-1
 -----------
 이미지 데이터를 손실시켜 이미지 크기를 줄이는 downsampling 과정이 작성된 코드입니다.
-
-Week6-2
------------
-이미지 데이터에 upsampling을 적용하는 일련의 코드입니다.(Bilinear, NNIF filter 적용)
+![down](Downsampledoutput.bmp)
 
 Week7-1
 -----------
 영상에 rotation을 적용한 후 발생한 hole 까지 채우는 코드입니다.
+![rot](rot.bmp)
 
 Week7-2
 -----------
 영상에 존재하는 edge들을 검출하는 코드입니다. (Gradinet를 통한 검출)
+
 
 Week9-1
 -----------
