@@ -10,7 +10,7 @@
 
 사용한 영상들
 -----------
-![원본1](rsult/AICenter.bmp)
+![원본1](//rsult/AICenter.bmp)
 ![원본2](AICenterY_128X128.bmp)
 ![원본3](AICenterY_CombinedNoise.bmp)
 ![원본4](AICenterY_Dark.bmp)
